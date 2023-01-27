@@ -67,7 +67,7 @@ const handleSubmit=async function(e){
 
   // fetch data from server 
 
-  const response = await fetch(`http://localhost:5000`,{
+  const response = await fetch(`https://chat-with-ai-app.onrender.com`,{
     method:'POST',
     headers:{
       'Content-Type':'application/json'
